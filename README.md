@@ -1,3 +1,4 @@
+# Explorer les fichiers détails du recensement
 
 L'INSEE diffuse librement des fichiers détails du recensemet de la population (voir par exemple [le millésime 2012](http://www.insee.fr/fr/themes/detail.asp?reg_id=0&ref_id=fd-rp2012)). Ces fichiers sont incroyablement riches, mais peu exploités car ils nécessitent un degré d'expertise technique important pour être analysés ; dans certains cas, le format de diffusion du fichier (Beyond ou DBF) rend très difficile sa lecture.
 
@@ -9,3 +10,9 @@ L'architecture du projet repose sur le langage R.
 - les analyses et visualisations s'appuient en particulier sur les [htmlwidgets](http://www.htmlwidgets.org/), qui permettent de s'appuyer sur des librairies javascripts. 
 
 N'hésitez pas à participer au développement de cette app, comme utilisateur potentiel (en exprimant vos besoins) ou comme développeur, voire comme testeur, en créant des [issues](https://github.com/joelgombin/ExploINSEE/issues).
+
+## Aspects juridiques 
+
+La réutilisation des données diffusées par l'INSEE sur son site est libre. Selon [leur site](http://www.insee.fr/fr/bases-de-donnees/default.asp?page=fichiers_detail/conditions_fic_detail.htm) :
+
+> Les fichiers et leur documentation sont la propriété de l'Insee. Ils peuvent être téléchargés gratuitement et les données contenues dans les fichiers peuvent être réutilisées, y compris à des fins commerciales, sans licence et sans versement de redevance.
