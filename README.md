@@ -5,7 +5,7 @@ L'INSEE diffuse librement des fichiers détails du recensement de la population 
 Ce projet entend donc faciliter l'usage de ces fichiers par un public relativement large en permettant leur exploration au moyen d'une interface graphique en ligne. Des tabulations et visualisations basiques seront permises, pour des analyses plus poussées des exports dans différents formats seront possibles.
 
 L'architecture du projet repose sur le langage R.
-- les données sont stockées dans une [base de données MonetDBLite](https://www.monetdb.org/blog/monetdblite-r), qui permet un accès rapide à des données de taille importante, et présente aussi l'avantage de ne pas nécessiter d'installation externe (le processus de la BDD est exécuté directement dans R).
+- les données sont stockées dans une [base de données MonetDBLite](https://www.monetdb.org/blog/monetdblite-r), qui permet un accès rapide à des données de taille importante, et présente aussi l'avantage de ne pas nécessiter d'installation externe (le processus de la BDD est exécuté directement dans R). Un [tout petit package](https://github.com/joelgombin/Insee2MonetDB) a été écrit pour permettre l'import automatique d'une base de données détail de l'INSEE dans une BDD MonetDB.
 - l'application tourne avec [Shiny](http://shiny.rstudio.com/), qui permet de construire une application interactive en R.
 - les analyses et visualisations s'appuient en particulier sur les [htmlwidgets](http://www.htmlwidgets.org/), qui permettent de s'appuyer sur des librairies javascript. 
 
